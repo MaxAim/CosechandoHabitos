@@ -1,0 +1,54 @@
+#beginningNosotros {
+	position: relative;
+}
+#beginningNosotros  h1, .centeredText,#ask {
+	position: relative;
+	z-index: 2;
+}#beginningNosotros::before {
+	background-image: url("/images/nosotrosBeginning.jpeg");
+	background-position-y: 40%;
+	background-size: cover;
+	content: ' ';
+	display: block;
+  position: absolute;
+	opacity: 0.65;
+	margin-bottom: 4%;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+  height: 100%;
+}
+#howItBorn {
+	margin-top: 4%;
+}
+#formationContinued {
+	margin-top: 2%;
+}
+#nosotros {
+    background: url(../../../cs/img/Encabezado\ de\ nosotros.jpeg) repeat-y;
+    margin-bottom: 4%;
+    background-position-y: 30%;
+    background-size: cover
+}
+#nosotros p {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder
+}
+@media only screen and (min-width:576px) and (max-width:768px) {
+	#title {
+		text-align: center;
+	}
+	#formationContinued {
+		margin-top: 180%;
+	}
+}
+@media only screen and (max-width:575px) {
+	#title {
+		text-align: center;
+	}
+	#formationContinued {
+		margin-top: 180%;
+	}
+}

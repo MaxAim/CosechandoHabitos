@@ -1,0 +1,1141 @@
+body {
+    font-family: 'Open Sans',sans-serif;
+    overflow-x: clip
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0
+}
+
+main {
+    margin-top: 100px
+}
+
+.background,.freebirdLightBackground,body,header {
+    background-color: #fff
+}
+
+.background {
+    border-radius: 10px;
+    border: #d3d3d3 solid thin;
+    margin-bottom: 2%
+}
+
+a {
+    text-decoration-line: underline;
+    font-size: 2rem;
+    color: #546747
+}
+
+.banner p,.infoServicios b,a,button,h1 {
+    font-family: "Lora"
+}
+
+#consulta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%
+}
+
+h2,p {
+    margin: 5%
+}
+
+i {
+    color: red;
+    font-size: .9rem
+}
+
+.btn-primary,button {
+    background-color: #546747
+}
+
+button {
+    border-radius: 20px;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 5%;
+    font-weight: 700;
+    border: 0
+}
+
+.btn-primary {
+    border-color: 546747;
+    margin: 0
+}
+
+.btn-primary:hover {
+    background-color: #90ee90;
+    border-color: #90ee90
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 0
+}
+
+.subtitle {
+    display: grid;
+    justify-items: center;
+    margin: 5% 0
+}
+
+.formacionProfesional {
+    padding: 5% 0
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 1000px;
+    height: 500px;
+    background-size: 100% 100%;
+    background-color: #fff;
+    background-position-y: 18%;
+    align-items: center;
+    justify-content: center
+}
+
+.banner p {
+    font-size: 2.5rem;
+    z-index: 10
+}
+
+.banner .opacity {
+    height: 500px;
+    opacity: .5
+}
+
+#beginning,#servicios {
+    background: url(../img/Encabezado\ de\ servicios.jpg) repeat-y;
+    background-position-y: 80%;
+    background-size: cover;
+}
+
+
+
+#contacto,.banner {
+    background-position-x: center
+}
+
+#contacto ,#nosotros {
+    margin-bottom: 4%;
+    background-size: cover
+}
+
+#contacto {
+    background: url(../img/Encabezado\ de\ contacto.jpg) repeat-y;
+    background-position-y: center;
+    background-size: cover;
+}
+
+#nosotros {
+    background: url(../img/Encabezado\ de\ nosotros.jpeg) repeat-y;
+    background-position-y: 40%
+}
+
+#recetario,.footer {
+    background-position-y: center;
+    background-size: cover
+}
+
+#recetario {
+    background: url(../img/encabezdo\ de\ recetario.jpg) repeat-y;
+    margin-bottom: 4%;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 1000px;
+    height: 400px;
+    background: url(../img/Footer.jpg) repeat-y;
+    background-color: #fff;
+    background-position-x: center;
+    font-family: "Lora"
+}
+
+.footerContainer {
+    width: 100%;
+    height: 70%;
+    padding: 0 10%;
+    z-index: 1;
+    display: grid;
+    margin-top: 5%
+}
+
+.title {
+    text-align: center;
+    padding: 2% 0;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.title img {
+    padding-right: 5%;
+    height: 80px;
+    display: flex
+}
+
+.infoServicios {
+    border-radius: 5px;
+    border-top: #546747 solid 10px
+}
+
+.infoRecetas,.infoServicios {
+    box-shadow: 0 0 5px #d8d8d8;
+    text-align: center;
+    margin: 5% 0;
+    padding: 2%
+}
+
+.infoRecetas b {
+    color: #ffaf00
+}
+
+.infoRecetas p {
+    text-align: left
+}
+
+.infoRecetas img {
+    margin-bottom: 10%
+}
+
+.infoRecetas a {
+    font-size: 1.1rem;
+    color: #00f
+}
+
+.infoContacto,.infoTratamientos {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    border-top: #546747 solid 10px;
+    margin-top: 4%;
+    display: inline-flex;
+    text-align: left;
+    overflow: clip;
+    height: 380px;
+}
+
+.infoContacto div,.infoTratamientos div {
+    padding: 2%
+}
+
+.infoContacto img,.infoTratamientos img {
+    border-radius: 0 0 0 5px;
+    padding: 0;
+    margin-left: -2%;
+}
+
+.infoContacto b,.infoTratamientos b {
+    padding: 5%;
+    font: weight 100px;
+    font-family: "Lora"
+}
+
+.infoTratamientos b {
+    font-size: 1.3rem
+}
+
+.frame {
+    width: 400px;
+    height: 390px;
+    padding: 0!important;
+    margin-left: -2%;
+    overflow: clip;
+    margin-bottom: 0;
+    display: flex;
+    align-self: center;
+}
+
+.frame img {
+    width: auto;
+    height: max-content;
+    min-width: 100%;
+    min-height: auto;
+    padding-top: 10px;
+}
+
+.contacto li,.infoContacto b,li {
+    font-size: 1rem
+}
+
+.infoContacto p {
+    margin: 0 0 0 5%
+}
+
+.infoContacto li b,.infoContacto p b {
+    padding: 0
+}
+
+ul {
+    list-style: none;
+    margin: 5% 0 5% 2%;
+    width: 100%
+}
+
+ul li::before {
+    content: "\2022";
+    font-weight: thin;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+.infoServicios p {
+    margin: 10%
+}
+
+#tratamiento {
+    background-color: #f5f5f5;
+    padding-bottom: 5%;
+    margin-bottom: 5%
+}
+
+#tratamiento div img {
+    margin-bottom: 3%
+}
+
+#tratamiento p {
+    margin: 0 0 3%
+}
+
+#tratamiento a,#tratamiento p {
+    font-size: 1.1rem
+}
+
+#contacto p {
+    font-size: 2rem
+}
+
+#contacto p,#nosotros p,#recetario p {
+    text-align: center;
+    font-weight: 700
+}
+
+#nosotros p {
+    font-size: 2.5rem
+}
+
+#recetario p {
+    font-size: 2rem
+}
+
+#recetario a {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem
+}
+
+#hoja,#portrait,.patologias img {
+    position: relative
+}
+
+#portrait {
+    background-color: #607a68;
+    right: 10%;
+    bottom: 10%
+}
+
+#portrait div {
+    z-index: 10;
+    border: bisque solid thin;
+    left: 20%;
+    padding: 3.5%
+}
+
+.more {
+    display: none
+}
+
+#hoja {
+    width: 35%;
+    opacity: .1;
+    right: 12%;
+    transform: rotate(-10deg);
+    top: 70%
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.patologias {
+    margin: 5% 0
+}
+
+.patologias div {
+    display: flex
+}
+
+.patologias p {
+    margin: 0 0 1% 4%;
+    font-size: 1.9rem
+}
+
+.patologias img {
+    left: 37px;
+    top: 15px;
+    width: 27px;
+    height: 20px
+}
+
+.patologias img:nth-of-type(even) {
+    left: 0;
+    width: 47px;
+    height: 47px;
+    top: 0
+}
+
+.container,.container-fluid,.footer b {
+    margin-bottom: 5%
+}
+
+.contacto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+    margin: 0 20px 0 0
+}
+
+.footer b {
+    justify-self: center;
+    font-size: 1.5rem
+}
+
+footer p {
+    font-weight: 700;
+    margin: 0
+}
+
+.navbar a,footer a {
+    text-decoration: none
+}
+
+footer a {
+    display: grid
+}
+
+#copyright,.opacity {
+    width: 100%;
+    min-width: 1000px
+}
+
+#beginning::before,.opacity {
+    opacity: .65;
+    position: absolute
+}
+
+.opacity {
+    height: 400px;
+    background-color: #fff;
+    z-index: 0;
+    margin: 0
+}
+
+#copyright {
+    height: 80px;
+    color: #fff;
+    background-color: #607a68;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    z-index: 1
+}
+
+.mobile__on {
+    display: none
+}
+
+.myQuotes {
+    display: flex;
+    align-items: center
+}
+
+.quotes {
+    display: grid;
+    width: 33%;
+    margin: 1%;
+    padding: 6% 2%;
+    background-color: #f0f2f0;
+    position: relative;
+    height: 100%;
+    align-content: center
+}
+
+.top {
+    transform: rotate(34deg) scaleX(-1);
+    position: absolute
+}
+
+.topLeft {
+    top: 25px;
+    left: 35px
+}
+
+.topRight {
+    left: 70px;
+    top: 35px
+}
+
+.bottom {
+    position: absolute
+}
+
+.bottomLeft {
+    bottom: 30px;
+    right: 25px
+}
+
+.bottomRight {
+    right: 60px;
+    bottom: 45px
+}
+
+.quotes b {
+    margin-left: 4%
+}
+
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+    display: flex;
+    align-items: center;
+    height: 475px
+}
+
+.mySlides {
+    display: none;
+    padding: 20px 40px 0
+}
+
+.next,.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: 700;
+    font-size: 20px;
+    user-select: none
+}
+
+.prev {
+    border-radius: 0 3px 3px 0
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px
+}
+
+.next:hover,.prev:hover {
+    background-color: rgba(0,0,0,.8);
+    color: #fff
+}
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .6s ease
+}
+
+.active,.dot:hover {
+    background-color: #717171
+}
+
+q {
+    font-style: italic
+}
+
+.author {
+    color: #000;
+    margin-left: 0
+}
+
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100
+}
+
+.whatsapp-icon {
+    margin-top: 13px
+}
+
+#logo {
+    width: 133px;
+    height: 75px;
+    margin: 12.5px 15.5px
+}
+
+.navbar {
+    font-family: Lora;
+    font-size: 22px
+}
+
+.nav-link {
+    margin-top: 10%;
+    color: black;
+}
+
+.navbar {
+    margin-bottom: 3%;
+    margin-left: 4%
+}
+
+.nav-link:hover,.navbar-brand:hover {
+    text-decoration: underline;
+    text-decoration-color: #87a985;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px
+}
+
+.nav-item {
+    background-color: #fff;
+    font-size: 1.2rem;
+    margin-left: 5%
+}
+
+.navbar a {
+    font-size: 1.2rem
+}
+
+.navbar ul {
+    margin: 0 0 2%
+}
+
+.navbar li::before {
+    content: "\2022";
+    display: none
+}
+
+#beginning {
+    position: relative;
+    background: url(../img/Portada\ inicio.jpg) repeat-y;
+    margin-bottom: 4%;
+    background-size: cover
+}
+
+#ask,#beginning h1,.centeredText {
+    position: relative;
+    z-index: 2
+}
+
+#beginning::before {
+    background-image: url(/images/indexBeginning.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: ' ';
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1
+}
+
+#beginningRow {
+    min-height: 552px;
+    width: 100%
+}
+
+#beginningtitle {
+    padding-left: 4%;
+    font-size: 50px
+}
+
+#beginningText {
+    text-align: justify
+}
+
+#beginningText,.centeredText {
+    font-size: 1.375rem
+}
+
+.buttonStyling {
+    background-color: #546747;
+    border-radius: 100px;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    margin: 2% 33%;
+    font-weight: 700
+}
+
+#formationRow {
+    height: 100vh;
+    min-height: 850px
+}
+
+#greenBackground {
+    background: #607a68;
+    right: 10%
+}
+
+#leaf {
+    position: relative;
+    width: 188px;
+    height: 188px;
+    margin-left: 0!important;
+    top: 70%;
+    right: 10%;
+    transform: rotate(-8.14deg);
+    opacity: 10%
+}
+
+#portraitIndex {
+    border: 1px solid #fddca5;
+    left: 20%;
+    top: -10%;
+    padding: 3.5% 0
+}
+
+#personalFormation {
+    padding: 5% 0
+}
+
+#treatment {
+    margin-top: 5%
+}
+
+#treatmentsContainer {
+    margin: 5% auto
+}
+
+.titleContainer {
+    align-items: center;
+    padding: 2% 0
+}
+
+.titleLogo {
+    margin-right: 5%;
+    width: 80px;
+    height: 80px
+}
+
+.logoContainer {
+    width: 240px;
+    height: 240px;
+    text-align: center
+}
+
+#logoImageContainer {
+    border-radius: 100%;
+    background: #ccd9ac;
+    width: 150px;
+    height: 150px
+}
+
+.logos {
+    width: 146px;
+    height: 146px;
+    padding: 20%
+}
+
+.logoText {
+    margin: 15% 0;
+    font-size: .85rem
+}
+
+#ask {
+    border: 0;
+    right: 7%
+}
+
+#recetarioLink {
+    background: url(../img/Fondo\ de\ la\ card\ del\ drive.jpg) repeat-y;
+    background-size: cover;
+    background-position-y: 80%;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: center
+}
+
+#recepiesContainer {
+    background: #fff;
+    height: min-content;
+    width: 50vw;
+    border-radius: 10px
+}
+
+@media (pointer:none),(pointer:coarse) {
+    .mobile__on {
+        display: block
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+        text-decoration: none;
+        border: solid thin rgba(0,0,0,.1);
+        margin: 5px 0
+    }
+
+    .bottom,.mobile__off,.top {
+        display: none
+    }
+
+    h1 {
+        font-size: 1.6rem
+    }
+
+    h3 {
+        font-size: .7em
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .footer {
+        flex-direction: column;
+        height: 250px;
+        min-width: 0
+    }
+
+    .footer p {
+        font-size: .85rem
+    }
+
+    .footer img {
+        height: 25px;
+        width: 25px
+    }
+
+    .redesMobile img {
+        margin: 0
+    }
+
+    .redesMobile {
+        display: flex;
+        z-index: 0;
+        justify-content: space-evenly;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%
+    }
+
+    .footerContainer {
+        margin-top: 5%;
+        border: 0!important
+    }
+
+    #copyright,.opacity {
+        min-width: 0;
+        height: 50px
+    }
+
+    .opacity {
+        height: 250px
+    }
+
+    #servicios p {
+        font-size: 2rem
+    }
+
+    .banner {
+        width: 100%;
+        min-width: 0
+    }
+
+    .infoContacto, .infoTratamientos {
+        display: grid
+    }
+
+    .infoContacto div, .infoTratamientos div{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    h1,img,main {
+        width: 100%
+    }
+
+    .title{
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 5% 0
+    }
+
+    #tratamiento img,.title img {
+        display: none
+    }
+
+    #servicios p,.subtitle {
+        text-align: center
+    }
+
+    button {
+        width: 40vw;
+        height: 10.2vw
+    }
+
+    #consulta {
+        width: 180%;
+        justify-content: flex-end;
+        right: 80%;
+        position: relative
+    }
+
+    #tratamiento div {
+        flex: 1;
+        max-width: 100%
+    }
+
+    #portrait {
+        max-width: 80%;
+        flex: 0 0 100%;
+        right: 20%
+    }
+
+    #portrait div {
+        margin-bottom: 30%;
+        left: 30%
+    }
+
+    .infoServicios {
+        max-width: 100vw;
+        flex: 0 0 100%
+    }
+
+    .infoContacto,.infoTratamientos {
+        overflow: clip;
+        text-align: center;
+        height: auto;
+    }
+
+    .infoContacto div,.infoTratamientos div {
+        z-index: 1
+    }
+
+    .infoContacto img,.infoTratamientos img {
+        position: absolute;
+        z-index: 0;
+        opacity: .3;
+        max-width: 200%;
+        width: auto;
+        height: auto;
+        max-height: 200%;
+        min-height: 110%;
+        min-width: 110%;
+    }
+
+    #recetario p,.infoRecetas {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+    #recetarioLink {
+        border-radius: 10px;
+        height: 250px
+    }
+
+    #recepiesContainer {
+        background: 0 0;
+        width: auto
+    }
+
+    #recepiesContainer button {
+        width: 70%
+    }
+
+    .formacionProfesional {
+        flex: 1;
+        max-width: 100%
+    }
+
+    .patologias p {
+        font-size: 1rem
+    }
+
+    .patologias img {
+        left: 19px;
+        top: 7px;
+        width: 13.5px;
+        height: 10px
+    }
+
+    .patologias img:nth-of-type(2n) {
+        width: 23.5px;
+        height: 23.5px
+    }
+
+    ul {
+        margin-left: -5%
+    }
+
+    .navBar li,li {
+        margin-left: 0;
+        padding-right: 10%
+    }
+
+    .collapse.show {
+        position: absolute;
+        top: 65%;
+        z-index: 2
+    }
+
+    #ask {
+        padding: 0 15%
+    }
+
+    .dropdown-menu {
+        display: none
+    }
+
+    #dropdownMenuLink {
+        width: 150px;
+        height: 45px;
+        background: no-repeat 50%;
+        color: #000;
+        border-color: rgba(0,0,0,.1);
+        text-decoration: none;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    }
+
+    h2 {
+        font-size: 1.5rem
+    }
+
+    #recipeBook {
+        height: auto
+    }
+
+    #beginningText,#beginningtitle {
+        text-align: center;
+        padding-left: 10%
+    }
+
+    .buttonStyling {
+        width: auto;
+        height: auto;
+        padding: 2%
+    }
+
+    .titleContainer {
+        margin-top: 5%
+    }
+
+    #leaf {
+        right: 10%
+    }
+
+    #greenBackground {
+        min-height: 100vh
+    }
+
+    #treatmentsContainer {
+        flex-flow: wrap
+    }
+    #treatment{
+        margin-top: 85%;
+    }
+
+    .titleLogo {
+        margin-right: 1%
+    }
+
+    .sectionTitle {
+        text-align: center
+    }
+
+    .bg-transparent {
+        position: absolute;
+        top: 25%
+    }
+
+    .navbar-toggler {
+        left: 80%;
+        width: 60%;
+        height: 75%
+    }
+
+    .navbar-collapse,.navbar-toggler {
+        position: absolute
+    }
+
+    .frame {
+        width: 100%;
+        height: max-content;
+        margin-left: -10%;
+        margin-top: -15%;
+        overflow: clip;
+    }
+
+    #personalFormation {
+        padding: 0
+    }
+
+    #formationRow {
+        min-height: 500px
+    }
+
+    .infoContacto img,.infoTratamientos img {
+        position: absolute;
+        z-index: 0;
+        opacity: .3;
+        max-width: 200%;
+        width: auto;
+        height: auto;
+        max-height: 160%;
+    }
+
+    .mob12 {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+    #portraitIndex {
+        bottom: 15%
+    }
+
+    #leaf {
+        top: 60%
+    }
+
+    #greenBackground {
+        min-height: auto
+    }
+
+    #formation {
+        min-height: 350vw;
+    }
+}

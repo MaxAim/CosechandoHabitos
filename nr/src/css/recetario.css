@@ -1,0 +1,109 @@
+#beginningRecetario {
+	position: relative;
+}
+#beginningRecetario  h1, .centeredText,#ask {
+	position: relative;
+	z-index: 2;
+}
+#recetario {
+    background: url(../../../cs/img/encabezdo\ de\ recetario.jpg) repeat-y;
+    margin-bottom: 4%;
+	background-size: cover;
+}
+#recetario p {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder
+}
+#suggestions {
+	margin-top: 2%;
+}
+#tips {
+	margin-top: 6%;
+}
+#greenRectangle {
+	height: 12px;
+	background: #546747;
+	border-radius: 5px 5px 0px 0px;
+}
+#moreInfoTextContainer {
+	height: 182px;
+	background: #F0F2F0;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+.buttonRecetario {
+	background-color: #546747;
+	color: white;
+	border-radius: 100px;
+	color: #fff;
+	width: 13vw;
+	height: 3.2vw;
+	margin: 0.5% 40%;
+	font-weight: bolder;
+}
+#tipCardsContainer2 {
+	margin-top: 5%;
+}
+#tipCard7, #tipCard8, #tipCard9 {
+	margin-top: 0%;
+}
+.goBack {
+	font-family: Lora;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 44px;
+	text-decoration-line: underline;
+	color: #546747;
+	cursor: pointer;
+}
+@media only screen and (min-width:576px) and (max-width:768px) {
+	#title {
+		text-align: center;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.buttonRecetario {
+		width: auto;
+		height: auto;
+		padding: 2%;
+	}
+	.titleContainer {
+		text-align: center;
+	}
+	.titleLogo {
+		margin-right: 0%;
+	}
+	#tipCard7, #tipCard8, #tipCard9 {
+		margin-top: 6%;
+	}
+	#moreInfoText {
+		text-align: center;
+	}
+}
+@media only screen and (max-width:575px) {
+	#title {
+		text-align: center;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.buttonRecetario {
+		width: auto;
+		height: auto;
+		padding: 2%;
+		margin: 2% 25%;
+	}
+	.titleContainer {
+		text-align: center;
+	}
+	.titleLogo {
+		margin-right: 0%;
+	}
+	#tipCard7, #tipCard8, #tipCard9 {
+		margin-top: 6%;
+	}
+	#moreInfoText {
+		text-align: center;
+	}
+}
